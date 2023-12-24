@@ -3,7 +3,7 @@
     "name": "Awakening",
     "description": "Sleeping figure in red landscape",
     "price": 200,
-    "pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1688738550/js4oe3k6vcgne6gdocmm.jpg",
+    "pictureUrl": "p200t.jpg",
     "type": "studio",
     "brand": "painting",
     "quantityInStock": 1
@@ -12,7 +12,7 @@
     "name": "Collapse",
     "description": "Wounded young man awakening on a shore with dancing figure in background.",
     "price": 250,
-    "pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1688738601/j42eb71sn80mzyn2pjly.jpg",
+    "pictureUrl": "p217t.jpg",
     "type": "sleep",
     "brand": "painting",
     "quantityInStock": 1
@@ -21,7 +21,7 @@
     "name": "Couple",
     "description": "Unfinished painting inspired by Bellini",
     "price": 550,
-    "pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1688738928/t5wrdxu6xwcbc5ozlcgv.jpg",
+    "pictureUrl": "p219t.jpg",
     "type": "figure",
     "brand": "painting",
     "quantityInStock": 1
@@ -30,7 +30,7 @@
     "name": "Gathering",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
     "price": 250,
-    "pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1688739175/jolcappzfxisfqyjg13w.jpg",
+    "pictureUrl": "p222t.jpg",
     "type": "landscape",
     "brand": "painting",
     "quantityInStock": 1
@@ -39,7 +39,7 @@
     "name": "Madonna and Child",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
     "price": 250,
-    "pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1688739151/goxhtv7iu7b3tskndr7w.jpg",
+    "pictureUrl": "p228t.jpg",
     "type": "studio",
     "brand": "painting",
     "quantityInStock": 1
@@ -48,7 +48,34 @@
     "name": "Meeting",
     "description": "Woman in foreground looks down at something in her hands",
     "price": 750,
-    "pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1688738979/u8k4neolbwm4rmta35u3.jpg",
+    "pictureUrl": "p400t.jpg",
+    "type": "figure",
+    "brand": "painting",
+    "quantityInStock": 2
+  },
+  {
+    "name": "Meeting",
+    "description": "Woman in foreground looks down at something in her hands",
+    "price": 750,
+    "pictureUrl": "p400t.jpg",
+    "type": "figure",
+    "brand": "painting",
+    "quantityInStock": 2
+  },
+  {
+    "name": "Garden Party",
+    "description": "Flowers",
+    "price": 50,
+    "pictureUrl": "p424t.jpg",
+    "type": "Flower",
+    "brand": "painting",
+    "quantityInStock": 2
+  },
+  {
+    "name": "Meeting",
+    "description": "Woman in foreground looks down at something in her hands",
+    "price": 750,
+    "pictureUrl": "p400t.jpg",
     "type": "figure",
     "brand": "painting",
     "quantityInStock": 2
