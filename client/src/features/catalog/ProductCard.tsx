@@ -6,7 +6,7 @@ interface Props {
 }
 export default function ProductCard({ product }: Props) {
 	return (
-		<Card>
+		<Card sx={{ bgcolor: 'primary.main' }} >
 			<CardHeader
 				avatar={
 					<Avatar sx={{ bgcolor: 'secondary.light' }}>

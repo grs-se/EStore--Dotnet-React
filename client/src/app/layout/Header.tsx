@@ -7,7 +7,7 @@ interface Props {
 
 export default function Header({ darkMode, handleThemeChange }: Props) {
 	return (
-		<AppBar position='sticky' sx={{ mb: 4 }}>
+		<AppBar position='sticky' sx={{ mb: 4, bgcolor: 'secondary.main' }}>
 			<Toolbar>
 				<Typography variant='h6'>
 					Forget-Me-Not Flowers

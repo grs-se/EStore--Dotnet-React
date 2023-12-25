@@ -9,9 +9,16 @@ function App() {
 
 	const theme = createTheme({
 		palette: {
+			primary: {
+				//main: '#f2f447',
+				main: '#fdfce6'
+			},
+			secondary: {
+				main: '#dfb5bf'
+			},
 			mode: paletteType,
 			background: {
-				default: paletteType === 'light' ? '#eaeaea' : '#121212'
+				default: paletteType === 'light' ? '#6aa2b1' : '#121212'
 			}
 		}
 	});
