@@ -1,9 +1,12 @@
 import { Avatar, Button, Card, CardActions, CardContent, CardHeader, CardMedia, Typography } from "@mui/material";
 import { Product } from "../../app/models/product";
+import { Link } from 'react-router-dom';
 
 interface Props {
 	product: Product;
 }
+
+const btnStyles = { color: 'secondary.main', outline: 'secondary.main' };
 export default function ProductCard({ product }: Props) {
 	return (
 		<Card sx={{ bgcolor: 'primary.main' }} >
@@ -32,8 +35,8 @@ export default function ProductCard({ product }: Props) {
 				</Typography>
 			</CardContent>
 			<CardActions>
-				<Button size="small">Add to cart</Button>
-				<Button size="small">View</Button>
+				<Button size="small" sx={btnStyles}>Add to cart</Button>
+				<Button component={Link} to={`/catalog/${product.id}`} size="small" variant='outlined' sx={btnStyles}>View</Button>
 			</CardActions>
 		</Card>
 	);
