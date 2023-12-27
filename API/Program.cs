@@ -107,6 +107,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors(opt =>
 {
+    // Allow credentials allows Cookie to be transfered from client to server
     opt.AllowAnyHeader().AllowAnyMethod().AllowCredentials().WithOrigins("http://localhost:3000");
 });
 
