@@ -1,11 +1,10 @@
 import { Button, ButtonGroup, Typography } from "@mui/material";
-import { useDispatch, useSelector } from "react-redux";
-import { CounterState, decrement, increment } from "./counterReducer";
+import { useAppDispatch, useAppSelector } from "../../app/store/configureStore";
+import { decrement, increment } from "./counterSlice";
 
 export default function ContactPage() {
-  const dispatch = useDispatch();
-  const data = useSelector((state: CounterState) => state.data);
-  const title = useSelector((state: CounterState) => state.title);
+  const dispatch = useAppDispatch();
+  const { data, title } = useAppSelector((state) => state.counter);
 
   return (
     <>
@@ -13,14 +12,14 @@ export default function ContactPage() {
       <Typography variant="h5">The data is: {data}</Typography>
       <ButtonGroup>
         <Button
-          onClick={() => dispatch(decrement())}
+          onClick={() => dispatch(decrement(1))}
           variant="contained"
           color="error"
         >
           Decrement
         </Button>
         <Button
-          onClick={() => dispatch(increment())}
+          onClick={() => dispatch(increment(1))}
           variant="contained"
           color="primary"
         >

@@ -1,6 +1,7 @@
 export const INCREMENT_COUNTER = "INCREMENT_COUNTER";
 export const DECREMENT_COUNTER = "DECREMENT_COUNTER";
 
+// Action Types
 export interface CounterState {
   data: number;
   title: string;
@@ -11,11 +12,12 @@ const initialState: CounterState = {
   title: "Redux counter",
 };
 
-export function increment(amount=1) {
-    return {
-        type: INCREMENT_COUNTER,
-        payload: amount
-    }
+// Action Creators
+export function increment(amount = 1) {
+  return {
+    type: INCREMENT_COUNTER,
+    payload: amount,
+  };
 }
 
 export function decrement(amount = 1) {
@@ -30,8 +32,10 @@ interface CounterAction {
   payload: number;
 }
 
-
-export default function counterReducer(state = initialState, action: CounterAction) {
+export default function counterReducer(
+  state = initialState,
+  action: CounterAction
+) {
   switch (action.type) {
     case INCREMENT_COUNTER:
       return {
