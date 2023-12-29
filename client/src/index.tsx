@@ -9,9 +9,6 @@ import { RouterProvider } from "react-router-dom";
 import "./app/layout/styles.css";
 import { router } from "./app/router/Routes";
 import { store } from "./app/store/configureStore";
-import { fetchProductsAsync } from "./features/catalog/catalogSlice";
-
-store.dispatch(fetchProductsAsync());
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
