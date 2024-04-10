@@ -11,6 +11,9 @@ dependencies:
   '@emotion/styled':
     specifier: ^11.11.0
     version: 11.11.0(@emotion/react@11.11.3)(@types/react@18.2.43)(react@18.2.0)
+  '@fontsource-variable/nunito-sans':
+    specifier: ^5.0.13
+    version: 5.0.13
   '@fontsource/roboto':
     specifier: ^5.0.8
     version: 5.0.8
@@ -523,6 +526,10 @@ packages:
 
   /@floating-ui/utils@0.1.6:
     resolution: {integrity: sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==}
+    dev: false
+
+  /@fontsource-variable/nunito-sans@5.0.13:
+    resolution: {integrity: sha512-yd7e43wyhrTs98VzYzulvRCfrN7HPEKqvnqMdWzlETjmTWZ6n93ioqh8GEwFfJ1auHC6/pQgtzBlnY5LFLNNWQ==}
     dev: false
 
   /@fontsource/roboto@5.0.8:

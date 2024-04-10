@@ -1,83 +1,56 @@
 [
-  {
-    "name": "Awakening",
-    "description": "Sleeping figure in red landscape",
-    "price": 200,
-    "pictureUrl": "p200t.jpg",
-    "type": "studio",
-    "brand": "painting",
-    "quantityInStock": 1
-  },
-  {
-    "name": "Collapse",
-    "description": "Wounded young man awakening on a shore with dancing figure in background.",
-    "price": 250,
-    "pictureUrl": "p217t.jpg",
-    "type": "sleep",
-    "brand": "painting",
-    "quantityInStock": 1
-  },
-  {
-    "name": "Couple",
-    "description": "Unfinished painting inspired by Bellini",
-    "price": 550,
-    "pictureUrl": "p219t.jpg",
-    "type": "figure",
-    "brand": "painting",
-    "quantityInStock": 1
-  },
-  {
-    "name": "Gathering",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "price": 250,
-    "pictureUrl": "p222t.jpg",
-    "type": "landscape",
-    "brand": "painting",
-    "quantityInStock": 1
-  },
-  {
-    "name": "Madonna and Child",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "price": 250,
-    "pictureUrl": "p228t.jpg",
-    "type": "studio",
-    "brand": "painting",
-    "quantityInStock": 1
-  },
-  {
-    "name": "Meeting",
-    "description": "Woman in foreground looks down at something in her hands",
-    "price": 750,
-    "pictureUrl": "p400t.jpg",
-    "type": "figure",
-    "brand": "painting",
-    "quantityInStock": 2
-  },
-  {
-    "name": "Meeting",
-    "description": "Woman in foreground looks down at something in her hands",
-    "price": 750,
-    "pictureUrl": "p400t.jpg",
-    "type": "figure",
-    "brand": "painting",
-    "quantityInStock": 2
-  },
-  {
-    "name": "Garden Party",
-    "description": "Flowers",
-    "price": 50,
-    "pictureUrl": "p424t.jpg",
-    "type": "Flower",
-    "brand": "painting",
-    "quantityInStock": 2
-  },
-  {
-    "name": "Meeting",
-    "description": "Woman in foreground looks down at something in her hands",
-    "price": 750,
-    "pictureUrl": "p400t.jpg",
-    "type": "figure",
-    "brand": "painting",
-    "quantityInStock": 2
-  }
+	{
+		"name": "Awakening",
+		"description": "Sleeping figure in red landscape",
+		"price": 20000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704814198/grs-artnet-3/girl-in-street.jpg",
+		"type": "studio",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Collapse",
+		"description": "Wounded young man awakening on a shore with dancing figure in background.",
+		"price": 250000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704904354/grs-artnet-3/woman-in-landscape.jpg",
+		"type": "sleep",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Couple",
+		"description": "Unfinished painting inspired by Bellini",
+		"price": 55000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704911860/grs-artnet-3/melancholia-2.jpg",
+		"type": "figure",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Gathering",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+		"price": 250000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704903563/grs-artnet-3/gathering.jpg",
+		"type": "landscape",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Madonna and Child",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+		"price": 250000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704735511/grs-artnet-3/figure-outside-pub.jpg.jpg",
+		"type": "studio",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Meeting",
+		"description": "Woman in foreground looks down at something in her hands",
+		"price": 750000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1693255072/grs-artnet-3/hx1njx7y9n5xhngwvutg.png",
+		"type": "figure",
+		"brand": "painting",
+		"quantityInStock": 2
+	}
 ]
