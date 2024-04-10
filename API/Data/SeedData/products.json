@@ -13,7 +13,7 @@
 		"description": "Wounded young man awakening on a shore with dancing figure in background.",
 		"price": 250000,
 		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704904354/grs-artnet-3/woman-in-landscape.jpg",
-		"type": "sleep",
+		"type": "studio",
 		"brand": "painting",
 		"quantityInStock": 1
 	},
@@ -22,7 +22,7 @@
 		"description": "Unfinished painting inspired by Bellini",
 		"price": 55000,
 		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704911860/grs-artnet-3/melancholia-2.jpg",
-		"type": "figure",
+		"type": "studio",
 		"brand": "painting",
 		"quantityInStock": 1
 	},
@@ -31,7 +31,7 @@
 		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
 		"price": 250000,
 		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704903563/grs-artnet-3/gathering.jpg",
-		"type": "landscape",
+		"type": "studio",
 		"brand": "painting",
 		"quantityInStock": 1
 	},
@@ -49,7 +49,115 @@
 		"description": "Woman in foreground looks down at something in her hands",
 		"price": 750000,
 		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1693255072/grs-artnet-3/hx1njx7y9n5xhngwvutg.png",
-		"type": "figure",
+		"type": "studio",
+		"brand": "painting",
+		"quantityInStock": 2
+	},
+	{
+		"name": "Sat down by the River",
+		"description": "Sleeping figure in red landscape",
+		"price": 20000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1692724085/grs-artnet-3/jdfhtebwotok45xujvz5.jpg",
+		"type": "drawing",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Southbank",
+		"description": "Wounded young man awakening on a shore with dancing figure in background.",
+		"price": 250000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1692810065/grs-artnet-3/uzch1gnoxbvplcnauuus.jpg",
+		"type": "drawing",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Sat on the steps of St Martin-In-The-Fields",
+		"description": "Unfinished painting inspired by Bellini",
+		"price": 55000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1693509017/grs-artnet-3/z2jvvwgvbiw56vvghmsc.png",
+		"type": "drawing",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Gathering",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+		"price": 250000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1691836985/grs-artnet-3/nncyz2nhuq06x26rz18m.jpg",
+		"type": "drawing",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Madonna and Child",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+		"price": 250000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1691863823/grs-artnet-3/d6psuvr2sk0vndtvpztf.png",
+		"type": "drawing",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Meeting",
+		"description": "Woman in foreground looks down at something in her hands",
+		"price": 750000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704904299/grs-artnet-3/man-with-dementia-sat-in-alton-town-park.jpg",
+		"type": "drawing",
+		"brand": "painting",
+		"quantityInStock": 2
+	},
+	{
+		"name": "Awakening",
+		"description": "Sleeping figure in red landscape",
+		"price": 20000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1689441182/grs-artnet-3/yjpfvne2tk7zmtjja5wx.png",
+		"type": "series 1",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Collapse",
+		"description": "Wounded young man awakening on a shore with dancing figure in background.",
+		"price": 250000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704898406/grs-artnet-3/edge-of-ackender-woods-towards-hilltops.jpg",
+		"type": "series 1",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Couple",
+		"description": "Unfinished painting inspired by Bellini",
+		"price": 55000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704898487/grs-artnet-3/valley-seen-from-edge-of-ackender-woods_-alton.jpg",
+		"type": "series 1",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Gathering",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+		"price": 250000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1704831439/grs-artnet-3/victoria-park-1.jpg",
+		"type": "series 1",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Madonna and Child",
+		"description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+		"price": 250000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1692810196/grs-artnet-3/farjv3aj4yjna1spxhew.png",
+		"type": "series 1",
+		"brand": "painting",
+		"quantityInStock": 1
+	},
+	{
+		"name": "Meeting",
+		"description": "Woman in foreground looks down at something in her hands",
+		"price": 750000,
+		"pictureUrl": "https://res.cloudinary.com/kw9xdfo024q/image/upload/v1692802023/grs-artnet-3/dhonmhbxgvxsncdiq80y.png",
+		"type": "series 1",
 		"brand": "painting",
 		"quantityInStock": 2
 	}
