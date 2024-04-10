@@ -3,7 +3,6 @@ import {
 	AppBar,
 	Badge,
 	Box,
-	Button,
 	IconButton,
 	List,
 	ListItem,
@@ -130,26 +129,14 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
 						))}
 					</List>
 
-					<Button
-						variant="outlined"
-						color="secondary"
+					<IconButton
+						size="small"
+						edge="start"
+						sx={{ color: 'primary', borderColor: 'primary.main' }}
 						onClick={handleThemeChange}
 					>
-						{/* {darkMode ? 'Dark' : 'Light'} */}
-						<IconButton
-							size="small"
-							edge="start"
-							sx={{ color: 'primary', borderColor: 'primary.main' }}
-						>
-							{/* <Badge
-								badgeContent={itemCount}
-								color="secondary"
-							> */}
-							{darkMode ? <LightMode /> : <DarkMode />}
-
-							{/* </Badge> */}
-						</IconButton>
-					</Button>
+						{darkMode ? <LightMode /> : <DarkMode />}
+					</IconButton>
 				</Box>
 			</Toolbar>
 		</AppBar>
