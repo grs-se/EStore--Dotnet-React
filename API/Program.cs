@@ -42,6 +42,7 @@ builder.Services.AddSwaggerGen(c =>
 string connString;
 if (builder.Environment.IsDevelopment())
 {
+    // opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
     connString = builder.Configuration.GetConnectionString("DefaultConnection");
 }
 else
@@ -64,7 +65,15 @@ else
 }
 builder.Services.AddDbContext<StoreContext>(opt =>
 {
-    opt.UseNpgsql(connString);
+    if (builder.Environment.IsDevelopment())
+    {
+        opt.UseSqlite(connString);
+
+    }
+    else
+    {
+        opt.UseNpgsql(connString);
+    }
 });
 
 
