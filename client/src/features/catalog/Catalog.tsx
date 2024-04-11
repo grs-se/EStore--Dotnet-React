@@ -1,14 +1,6 @@
-import {
-	Box,
-	Checkbox,
-	FormControlLabel,
-	FormGroup,
-	Grid,
-	Pagination,
-	Paper,
-	Typography,
-} from '@mui/material';
+import { Box, Grid, Pagination, Paper, Typography } from '@mui/material';
 import { useEffect } from 'react';
+import CheckboxButtons from '../../app/components/CheckboxButtons';
 import RadioButtonGroup from '../../app/components/RadioButtonGroup';
 import LoadingComponent from '../../app/layout/LoadingComponent';
 import { useAppDispatch, useAppSelector } from '../../app/store/configureStore';
@@ -73,48 +65,23 @@ export default function Catalog() {
 				</Paper>
 
 				<Paper sx={{ mb: 2, p: 2 }}>
-					<FormGroup>
-						{brands.map((brand) => (
-							<FormControlLabel
-								control={
-									<Checkbox
-										defaultChecked
-										sx={{
-											color: '#13c552',
-											'&.Mui-checked': {
-												color: '#13c552',
-											},
-										}}
-									/>
-								}
-								label={brand}
-								key={brand}
-							/>
-						))}
-					</FormGroup>
+					<CheckboxButtons
+						items={brands}
+						checked={productParams.brands}
+						onChange={(items: string[]) =>
+							dispatch(setProductParams({ brands: items }))
+						}
+					/>
 				</Paper>
 
 				<Paper sx={{ mb: 2, p: 2 }}>
-					<FormGroup>
-						{types.map((type) => (
-							<FormControlLabel
-								control={
-									<Checkbox
-										defaultChecked
-										color="secondary"
-										sx={{
-											color: '#13c552',
-											'&.Mui-checked': {
-												color: '#13c552',
-											},
-										}}
-									/>
-								}
-								label={type}
-								key={type}
-							/>
-						))}
-					</FormGroup>
+					<CheckboxButtons
+						items={types}
+						checked={productParams.types}
+						onChange={(items: string[]) =>
+							dispatch(setProductParams({ types: items }))
+						}
+					/>
 				</Paper>
 			</Grid>
 
