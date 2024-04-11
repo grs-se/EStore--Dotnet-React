@@ -69,7 +69,7 @@ function App() {
 				darkMode={darkMode}
 				handleThemeChange={handleThemeChange}
 			/>
-			<Container>
+			<Container maxWidth="false">
 				<Outlet />
 			</Container>
 		</ThemeProvider>

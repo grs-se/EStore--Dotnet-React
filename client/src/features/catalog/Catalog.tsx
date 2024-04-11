@@ -53,29 +53,27 @@ export default function Catalog() {
 		>
 			<Grid
 				item
-				xs={3}
+				xs={2}
 			>
 				<Paper sx={{ mb: 2, p: 2 }}>
 					<TextField
 						label="Search products"
 						variant="outlined"
 						fullWidth
+						size="small"
 					/>
 				</Paper>
 				<Paper sx={{ mb: 2, p: 2 }}>
 					<FormControl>
-						<FormLabel id="demo-radio-buttons-group-label">Filters</FormLabel>
-						<RadioGroup
-							aria-labelledby="demo-radio-buttons-group-label"
-							defaultValue="female"
-							name="radio-buttons-group"
-						>
+						<FormLabel>Filters</FormLabel>
+						<RadioGroup>
 							{sortOptions.map(({ value, label }) => (
 								<FormControlLabel
 									value={value}
 									control={<Radio />}
 									label={label}
 									key={value}
+									sx={{ color: 'primary' }}
 								/>
 							))}
 						</RadioGroup>
@@ -110,7 +108,7 @@ export default function Catalog() {
 
 			<Grid
 				item
-				xs={9}
+				xs={10}
 			>
 				<ProductList products={products} />
 			</Grid>
