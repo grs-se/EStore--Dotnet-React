@@ -10,13 +10,13 @@ import {
 	Paper,
 	Radio,
 	RadioGroup,
-	TextField,
 	Typography,
 } from '@mui/material';
 import { useEffect } from 'react';
 import LoadingComponent from '../../app/layout/LoadingComponent';
 import { useAppDispatch, useAppSelector } from '../../app/store/configureStore';
 import ProductList from './ProductList';
+import ProductSearch from './ProductSearch';
 import {
 	fetchFilters,
 	fetchProductsAsync,
@@ -56,12 +56,7 @@ export default function Catalog() {
 				xs={2}
 			>
 				<Paper sx={{ mb: 2, p: 2 }}>
-					<TextField
-						label="Search products"
-						variant="outlined"
-						fullWidth
-						size="small"
-					/>
+					<ProductSearch />
 				</Paper>
 				<Paper sx={{ mb: 2, p: 2 }}>
 					<FormControl>
