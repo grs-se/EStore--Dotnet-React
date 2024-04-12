@@ -35,7 +35,7 @@ export default function ProductCardSkeleton() {
 			<Skeleton
 				sx={{
 					height: 260,
-					width: 360,
+					width: '80%',
 					margin: 'auto',
 				}}
 				animation="wave"
