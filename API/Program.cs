@@ -2,6 +2,7 @@ using System;
 using API.Data;
 using API.Entities;
 using API.Middleware;
+using API.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -97,6 +98,7 @@ namespace API
                 .AddEntityFrameworkStores<StoreContext>();
             builder.Services.AddAuthentication();
             builder.Services.AddAuthorization();
+            builder.Services.AddScoped<TokenService>();
             //builder.Services.AddIdentityCore<User>(opt =>
             //{
             //    opt.User.RequireUniqueEmail = true;
