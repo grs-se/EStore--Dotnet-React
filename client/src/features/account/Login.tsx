@@ -1,27 +1,25 @@
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
+import { LoadingButton } from '@mui/lab';
 import { Paper } from '@mui/material';
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
-import { useState } from 'react';
+import { FieldValues, useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 import agent from '../../app/api/agent';
 
 export default function Login() {
-	const [values, setValues] = useState({ username: '', password: '' });
+	const {
+		register,
+		handleSubmit,
+		formState: { isSubmitting },
+	} = useForm();
 
-	const handleSubmit = (event: any) => {
-		event.preventDefault();
-		agent.Account.login(values);
-	};
-
-	function handleInputChange(event: any) {
-		const { name, value } = event.target;
-		setValues({ ...values, [name]: value });
+	async function submitForm(data: FieldValues) {
+		await agent.Account.login(data);
 	}
 
 	return (
@@ -54,7 +52,7 @@ export default function Login() {
 				</Typography>
 				<Box
 					component="form"
-					onSubmit={handleSubmit}
+					onSubmit={handleSubmit(submitForm)}
 					noValidate
 					sx={{ mt: 1 }}
 				>
@@ -62,28 +60,25 @@ export default function Login() {
 						margin="normal"
 						fullWidth
 						label="Username"
-						name="username"
 						autoFocus
-						onChange={handleInputChange}
-						value={values.username}
+						{...register('username')}
 					/>
 					<TextField
 						margin="normal"
 						fullWidth
-						name="password"
 						label="Password"
 						type="password"
-						onChange={handleInputChange}
-						value={values.password}
+						{...register('register')}
 					/>
-					<Button
+					<LoadingButton
+						loading={isSubmitting}
 						type="submit"
 						fullWidth
 						variant="contained"
 						sx={{ mt: 3, mb: 2 }}
 					>
 						Sign In
-					</Button>
+					</LoadingButton>
 					<Grid container>
 						<Grid item>
 							<Link to="/register">{"Don't have an account? Sign Up"}</Link>
